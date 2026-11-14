@@ -1,0 +1,66 @@
+[
+  {
+    "alert_id": "A001",
+    "timestamp": "2026-11-14T09:00:00",
+    "event_type": "failed_login_burst",
+    "source_ip": "203.0.113.10",
+    "username": "analyst1",
+    "host": "WS-014"
+  },
+  {
+    "alert_id": "A002",
+    "timestamp": "2026-11-14T09:00:20",
+    "event_type": "failed_login_burst",
+    "source_ip": "203.0.113.10",
+    "username": "analyst1",
+    "host": "WS-014"
+  },
+  {
+    "alert_id": "A003",
+    "timestamp": "2026-11-14T09:01:05",
+    "event_type": "failed_login_burst",
+    "source_ip": "203.0.113.10",
+    "username": "analyst1",
+    "host": "WS-014"
+  },
+  {
+    "alert_id": "A004",
+    "timestamp": "2026-11-14T09:05:00",
+    "event_type": "suspicious_powershell",
+    "source_ip": "192.0.2.44",
+    "username": "user2",
+    "host": "LAPTOP-22"
+  },
+  {
+    "alert_id": "A005",
+    "timestamp": "2026-11-14T09:06:00",
+    "event_type": "malware_detection",
+    "source_ip": "192.0.2.80",
+    "username": "user3",
+    "host": "FIN-PC-03"
+  },
+  {
+    "alert_id": "A006",
+    "timestamp": "2026-11-14T09:08:00",
+    "event_type": "new_admin_account",
+    "source_ip": "198.51.100.7",
+    "username": "unknown",
+    "host": "SRV-01"
+  },
+  {
+    "alert_id": "A007",
+    "timestamp": "2026-11-14T09:12:00",
+    "event_type": "successful_login",
+    "source_ip": "198.51.100.25",
+    "username": "employee4",
+    "host": "WS-019"
+  },
+  {
+    "alert_id": "A008",
+    "timestamp": "2026-11-14T09:12:30",
+    "event_type": "successful_login",
+    "source_ip": "198.51.100.25",
+    "username": "employee4",
+    "host": "WS-019"
+  }
+]

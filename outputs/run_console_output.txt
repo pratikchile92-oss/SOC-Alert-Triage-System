@@ -1,0 +1,43 @@
+
+=== SOC ALERT TRIAGE SYSTEM ===
+Input events: 8
+Unique alert groups after deduplication: 5
+
+--- TRIAGED ALERTS ---
+
+[Critical] malware_detection (1 occurrence(s))
+Source: 192.0.2.80 | User: user3 | Host: FIN-PC-03
+Recommendation: Escalate to the incident-response lead immediately; preserve relevant logs and investigate scope.
+Recommendation only - no system changes performed
+
+[High] failed_login_burst (3 occurrence(s))
+Source: 203.0.113.10 | User: analyst1 | Host: WS-014
+Recommendation: Prioritize analyst review; validate the account, source IP, and affected host.
+Recommendation only - no system changes performed
+
+[High] suspicious_powershell (1 occurrence(s))
+Source: 192.0.2.44 | User: user2 | Host: LAPTOP-22
+Recommendation: Prioritize analyst review; validate the account, source IP, and affected host.
+Recommendation only - no system changes performed
+
+[High] new_admin_account (1 occurrence(s))
+Source: 198.51.100.7 | User: unknown | Host: SRV-01
+Recommendation: Prioritize analyst review; validate the account, source IP, and affected host.
+Recommendation only - no system changes performed
+
+[Low] successful_login (2 occurrence(s))
+Source: 198.51.100.25 | User: employee4 | Host: WS-019
+Recommendation: Review the event and keep it under routine monitoring.
+Recommendation only - no system changes performed
+
+Files created: outputs/triage_output.json, outputs/incident_timeline.md, outputs/sample_alert_output.txt
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.

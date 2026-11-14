@@ -1,0 +1,67 @@
+[
+  {
+    "alert_id": "A005",
+    "event_type": "malware_detection",
+    "source_ip": "192.0.2.80",
+    "username": "user3",
+    "host": "FIN-PC-03",
+    "severity": "Critical",
+    "occurrences": 1,
+    "first_seen": "2026-11-14T09:06:00",
+    "last_seen": "2026-11-14T09:06:00",
+    "recommendation": "Escalate to the incident-response lead immediately; preserve relevant logs and investigate scope.",
+    "response_mode": "Recommendation only - no system changes performed"
+  },
+  {
+    "alert_id": "A003",
+    "event_type": "failed_login_burst",
+    "source_ip": "203.0.113.10",
+    "username": "analyst1",
+    "host": "WS-014",
+    "severity": "High",
+    "occurrences": 3,
+    "first_seen": "2026-11-14T09:00:00",
+    "last_seen": "2026-11-14T09:01:05",
+    "recommendation": "Prioritize analyst review; validate the account, source IP, and affected host.",
+    "response_mode": "Recommendation only - no system changes performed"
+  },
+  {
+    "alert_id": "A004",
+    "event_type": "suspicious_powershell",
+    "source_ip": "192.0.2.44",
+    "username": "user2",
+    "host": "LAPTOP-22",
+    "severity": "High",
+    "occurrences": 1,
+    "first_seen": "2026-11-14T09:05:00",
+    "last_seen": "2026-11-14T09:05:00",
+    "recommendation": "Prioritize analyst review; validate the account, source IP, and affected host.",
+    "response_mode": "Recommendation only - no system changes performed"
+  },
+  {
+    "alert_id": "A006",
+    "event_type": "new_admin_account",
+    "source_ip": "198.51.100.7",
+    "username": "unknown",
+    "host": "SRV-01",
+    "severity": "High",
+    "occurrences": 1,
+    "first_seen": "2026-11-14T09:08:00",
+    "last_seen": "2026-11-14T09:08:00",
+    "recommendation": "Prioritize analyst review; validate the account, source IP, and affected host.",
+    "response_mode": "Recommendation only - no system changes performed"
+  },
+  {
+    "alert_id": "A008",
+    "event_type": "successful_login",
+    "source_ip": "198.51.100.25",
+    "username": "employee4",
+    "host": "WS-019",
+    "severity": "Low",
+    "occurrences": 2,
+    "first_seen": "2026-11-14T09:12:00",
+    "last_seen": "2026-11-14T09:12:30",
+    "recommendation": "Review the event and keep it under routine monitoring.",
+    "response_mode": "Recommendation only - no system changes performed"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "failed_login_burst": {
+    "severity": "High",
+    "description": "Multiple failed logins from the same source for the same account.",
+    "mitre_attack": "T1110 - Brute Force"
+  },
+  "suspicious_powershell": {
+    "severity": "High",
+    "description": "Potentially suspicious PowerShell execution requiring command-line review.",
+    "mitre_attack": "T1059.001 - PowerShell"
+  },
+  "malware_detection": {
+    "severity": "Critical",
+    "description": "Endpoint security reports a possible malware detection.",
+    "mitre_attack": "T1204 - User Execution (context dependent)"
+  },
+  "new_admin_account": {
+    "severity": "High",
+    "description": "A new privileged account was created; verify authorization.",
+    "mitre_attack": "T1136 - Create Account"
+  },
+  "successful_login": {
+    "severity": "Low",
+    "description": "Successful authentication event; review only if context is unusual.",
+    "mitre_attack": "T1078 - Valid Accounts"
+  }
+}

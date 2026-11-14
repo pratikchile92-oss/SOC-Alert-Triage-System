@@ -1,0 +1,19 @@
+SOC ALERT TRIAGE SUMMARY
+========================
+Unique alert groups: 5
+
+[Critical] malware_detection | 192.0.2.80 | user=user3 | host=FIN-PC-03 | repeats=1
+Recommendation: Escalate to the incident-response lead immediately; preserve relevant logs and investigate scope.
+
+[High] failed_login_burst | 203.0.113.10 | user=analyst1 | host=WS-014 | repeats=3
+Recommendation: Prioritize analyst review; validate the account, source IP, and affected host.
+
+[High] suspicious_powershell | 192.0.2.44 | user=user2 | host=LAPTOP-22 | repeats=1
+Recommendation: Prioritize analyst review; validate the account, source IP, and affected host.
+
+[High] new_admin_account | 198.51.100.7 | user=unknown | host=SRV-01 | repeats=1
+Recommendation: Prioritize analyst review; validate the account, source IP, and affected host.
+
+[Low] successful_login | 198.51.100.25 | user=employee4 | host=WS-019 | repeats=2
+Recommendation: Review the event and keep it under routine monitoring.
+
